@@ -1,0 +1,20 @@
+{
+  "name": "helloworldpro",
+  "version": "1.0.0",
+  "description": "Helloworld",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js",
+    "command-test": "node app/index.js test"
+  },
+  "author": "Tuongnguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2"
+  }
+}
